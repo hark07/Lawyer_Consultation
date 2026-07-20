@@ -43,24 +43,21 @@ const Footer = () => {
               </li>
 
               <li>
-                <Link to="/lawyers" className="hover:text-white transition">
+                <a href="#" className="hover:text-white transition">
                   Lawyers
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link
-                  to="/appointments"
-                  className="hover:text-white transition"
-                >
+                <a href="#" className="hover:text-white transition">
                   Appointments
-                </Link>
+                </a>
               </li>
 
               <li>
-                <Link to="/chat" className="hover:text-white transition">
+                <a href="#" className="hover:text-white transition">
                   Chat
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -91,7 +88,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <FaMapMarkerAlt />
-                <span>Pokhara, Nepal</span>
+                <span>Kathmandu, Nepal</span>
               </div>
 
               <div className="flex items-center gap-3">

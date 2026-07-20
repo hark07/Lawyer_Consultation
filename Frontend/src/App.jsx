@@ -1,12 +1,16 @@
-import React from "react";
 import AppRoutes from "./routes/AppRoutes";
+import Footer from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
-    <>
-      <AppRoutes />
-    </>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-1">
+        <AppRoutes />
+      </main>
+
+      <Footer />
+    </div>
   );
-};
+}
 
 export default App;
