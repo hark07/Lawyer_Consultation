@@ -1,12 +1,12 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://lawyer-consultation-o63e.onrender.com/api",
 });
 
 // Image Base URL
 
-export const IMAGE_URL = "http://localhost:5000";
+export const IMAGE_URL = "https://lawyer-consultation-o63e.onrender.com";
 
 // JWT Token
 
