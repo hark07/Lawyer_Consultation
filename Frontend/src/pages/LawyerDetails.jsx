@@ -30,10 +30,10 @@ const LawyerDetails = () => {
     }
 
     if (image.startsWith("/")) {
-      return `http://localhost:5000${image}`;
+      return `https://lawyer-consultation-o63e.onrender.com${image}`;
     }
 
-    return `http://localhost:5000/${image}`;
+    return `https://lawyer-consultation-o63e.onrender.com/${image}`;
   };
 
   // GET LAWYER DETAILS

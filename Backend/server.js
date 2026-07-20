@@ -89,7 +89,7 @@ app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
 const allowedOrigins = [
   "https://lawyer-consultationadmin.vercel.app",
 
-  "http://localhost:5174",
+  "https://lawyer-consultation.vercel.app",
 
 ];
 
