@@ -13,7 +13,6 @@ import LawyerDashboard from "../pages/LawyerDashboard";
 import VideoConsultation from "../pages/VideoConsultation";
 import LawyerChats from "../pages/LawyerChats";
 import Profile from "../pages/Profile";
-import Footer from "../components/Footer";
 
 const AppRoutes = () => {
   return (
@@ -43,8 +42,6 @@ const AppRoutes = () => {
       <Route path="/video/:appointmentId" element={<VideoConsultation />} />
 
       <Route path="/profile" element={<Profile />} />
-
-      <Footer />
     </Routes>
   );
 };
