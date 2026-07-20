@@ -2,4 +2,4 @@ BACKEND_URL = https://lawyer-consultation-o63e.onrender.com
 
 ADMIN_URL = https://lawyer-consultationadmin.vercel.app
 
-FRONTEND_URL = 
+FRONTEND_URL = https://lawyer-consultation.vercel.app
