@@ -40,6 +40,12 @@ const Navbar = () => {
           {/* Desktop */}
 
           <div className="hidden md:flex items-center gap-6">
+            <a
+              href="https://lawyer-consultationadmin.vercel.app"
+              className={navClass}
+            >
+              Admin
+            </a>
             {/* COMMON */}
 
             <NavLink to="/" className={navClass}>
