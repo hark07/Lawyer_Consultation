@@ -1,1 +1,35 @@
-{"name":"backend","version":"1.0.0","description":"Lawyer Consultation Backend","main":"server.js","type":"module","scripts":{"start":"node server.js","dev":"nodemon server.js","seed-admin":"node seedAdmin.js"},"keywords":[],"author":"","license":"ISC","dependencies":{"@zegocloud/zego-uikit-prebuilt":"^2.17.3","agora-access-token":"^2.0.4","bcryptjs":"^3.0.3","cloudinary":"^2.10.0","compression":"^1.8.1","cookie-parser":"^1.4.7","cors":"^2.8.5","dotenv":"^17.2.1","express":"^5.1.0","express-validator":"^7.2.1","helmet":"^8.1.0","jsonwebtoken":"^9.0.2","mongodb":"^6.21.0","mongoose":"^8.18.0","morgan":"^1.10.0","multer":"^2.0.2","multer-storage-cloudinary":"^4.0.0","socket.io":"^4.8.1"},"devDependencies":{"nodemon":"^3.1.10"}}
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Lawyer Consultation Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed-admin": "node seedAdmin.js"
+  },
+  "dependencies": {
+    "@zegocloud/zego-uikit-prebuilt": "^2.17.3",
+    "agora-access-token": "^2.0.4",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^1.41.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
