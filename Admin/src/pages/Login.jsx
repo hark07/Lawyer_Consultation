@@ -7,8 +7,8 @@ const Login = () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
+    email: "admin@gmail.com",
+    password: "Admin123",
   });
 
   const [loading, setLoading] = useState(false);
@@ -86,7 +86,7 @@ const Login = () => {
           <button
             type="submit"
             disabled={loading}
-            className={`w-full py-3 rounded-lg text-white font-semibold transition duration-300 ${
+            className={`w-full py-3 rounded-lg text-white font-semibold transition ${
               loading
                 ? "bg-gray-400 cursor-not-allowed"
                 : "bg-blue-600 hover:bg-blue-700"
@@ -96,8 +96,12 @@ const Login = () => {
           </button>
         </form>
 
-        <div className="mt-6 text-center text-sm text-gray-500">
-          Admin Panel Access Only
+        <div className="mt-6 p-3 bg-blue-50 rounded-lg text-center">
+          <p className="text-sm text-gray-600">Demo Admin Credentials</p>
+
+          <p className="font-medium text-blue-700">admin@gmail.com</p>
+
+          <p className="font-medium text-blue-700">Admin123</p>
         </div>
       </div>
     </div>
