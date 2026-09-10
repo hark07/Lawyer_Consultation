@@ -1,5 +1,8 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
+import WhyChooseUs from "../components/WhyChooseUs";
+import CTA from "../components/CTA";
 
 const Home = () => {
   return (
@@ -8,31 +11,11 @@ const Home = () => {
 
       <Hero />
 
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold">Why Choose Us?</h2>
+      <HowItWorks />
 
-          <div className="grid md:grid-cols-3 gap-8 mt-12">
-            <div className="shadow-lg p-6 rounded-xl">
-              <h3 className="font-bold text-xl">Verified Lawyers</h3>
+      <WhyChooseUs />
 
-              <p className="mt-3 text-gray-600">Trusted legal professionals.</p>
-            </div>
-
-            <div className="shadow-lg p-6 rounded-xl">
-              <h3 className="font-bold text-xl">Online Consultation</h3>
-
-              <p className="mt-3 text-gray-600">Meet lawyers from anywhere.</p>
-            </div>
-
-            <div className="shadow-lg p-6 rounded-xl">
-              <h3 className="font-bold text-xl">Secure Payments</h3>
-
-              <p className="mt-3 text-gray-600">Safe and protected booking.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTA />
     </>
   );
 };

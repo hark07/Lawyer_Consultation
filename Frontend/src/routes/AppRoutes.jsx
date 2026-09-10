@@ -14,35 +14,41 @@ import VideoConsultation from "../pages/VideoConsultation";
 import LawyerChats from "../pages/LawyerChats";
 import Profile from "../pages/Profile";
 
+import Footer from "../components/Footer";
+
 const AppRoutes = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-      <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
 
-      <Route path="/register" element={<Register />} />
+        <Route path="/register" element={<Register />} />
 
-      <Route path="/lawyers" element={<Lawyers />} />
+        <Route path="/lawyers" element={<Lawyers />} />
 
-      <Route path="/lawyer/chats" element={<LawyerChats />} />
+        <Route path="/lawyer/chats" element={<LawyerChats />} />
 
-      <Route path="/lawyers/:id" element={<LawyerDetails />} />
+        <Route path="/lawyers/:id" element={<LawyerDetails />} />
 
-      <Route path="/appointments" element={<Appointments />} />
+        <Route path="/appointments" element={<Appointments />} />
 
-      <Route path="/chat/:chatId" element={<Chat />} />
+        <Route path="/chat/:chatId" element={<Chat />} />
 
-      <Route path="/notifications" element={<Notifications />} />
+        <Route path="/notifications" element={<Notifications />} />
 
-      <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
 
-      <Route path="/lawyer/dashboard" element={<LawyerDashboard />} />
+        <Route path="/lawyer/dashboard" element={<LawyerDashboard />} />
 
-      <Route path="/video/:appointmentId" element={<VideoConsultation />} />
+        <Route path="/video/:appointmentId" element={<VideoConsultation />} />
 
-      <Route path="/profile" element={<Profile />} />
-    </Routes>
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+
+      <Footer />
+    </>
   );
 };
 
